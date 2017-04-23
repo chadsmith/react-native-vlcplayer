@@ -240,7 +240,7 @@
 		0CA30C4F1D07E0DB003B09F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "/Users/xiongchuan/Downloads/vlc/MobileVLCKit-binary";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../../MobileVLCKit-binary";
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../react-native/React/**",
