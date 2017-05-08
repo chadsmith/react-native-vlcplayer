@@ -5,8 +5,8 @@ A `<VLCPlayer>` component for react-native
 
 VLCPlayer 支持各种格式(mp4,m3u8,flv,mov,rtsp,rtmp,etc.)，具体参看[vlc wiki][3]
 
-![播放器例子](1.png)
-![全屏模式](2.png)
+![播放器例子](screenshots/1.png)
+![全屏模式](screenshots/2.png)
 
 ### Add it to your project
 
@@ -111,18 +111,6 @@ AppRegistry.registerComponent('vlcplayer', () => vlcplayer);
 - [x] Add support for snapshot
 - [ ] Add support for record
 - [x] Add support for A full-featured player
-
-
-## 加入ReactNative讨论组  
-  
-###`QQ群：316434159`  ###
-![扫描加入][5]
-
-[1]:https://wiki.videolan.org/VLC_command-line_help/
-[2]:https://github.com/xiongchuan86/react-native-vlcplayer/tree/master/Examples/vlcplayer
-[3]:https://wiki.videolan.org/Documentation:Documentation/
-[4]:https://github.com/oblador/react-native-vector-icons
-[5]:ReactNative_qq_group.png
 
 ---
 
