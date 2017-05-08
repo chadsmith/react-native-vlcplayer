@@ -1,8 +1,8 @@
-#import "RCTConvert.h"
+#import <React/RCTConvert.h>
 #import "RCTVLCPlayer.h"
-#import "RCTBridgeModule.h"
-#import "RCTEventDispatcher.h"
-#import "UIView+React.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventDispatcher.h>
+#import <React/UIView+React.h>
 #import <MobileVLCKit/MobileVLCKit.h>
 static NSString *const statusKeyPath = @"status";
 static NSString *const playbackLikelyToKeepUpKeyPath = @"playbackLikelyToKeepUp";
