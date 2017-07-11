@@ -98,7 +98,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "xiongchuan";
+				ORGANIZATIONNAME = xiongchuan;
 				TargetAttributes = {
 					0CA30C431D07E0DB003B09F9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -222,7 +222,10 @@
 		0CA30C4E1D07E0DB003B09F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../../MobileVLCKit-binary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/MobileVLCKit-binary",
+					"$(PROJECT_DIR)/../../../ios/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../react-native/React/**",
@@ -240,7 +243,10 @@
 		0CA30C4F1D07E0DB003B09F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../../MobileVLCKit-binary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Documents/MobileVLCKit-binary",
+					"$(PROJECT_DIR)/../../../ios/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../react-native/React/**",
