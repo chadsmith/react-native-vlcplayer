@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactNative from 'react-native';
-
+import PropTypes from 'prop-types';
 const {
   Component,
   PropTypes,
@@ -135,11 +135,11 @@ VLCPlayer.propTypes = {
   onProgress: PropTypes.func,
 
   /* Required by react-native */
-  scaleX: React.PropTypes.number,
-  scaleY: React.PropTypes.number,
-  translateX: React.PropTypes.number,
-  translateY: React.PropTypes.number,
-  rotation: React.PropTypes.number,
+  scaleX: PropTypes.number,
+  scaleY: PropTypes.number,
+  translateX: PropTypes.number,
+  translateY: PropTypes.number,
+  rotation: PropTypes.number,
   ...View.propTypes,
 };
 
