@@ -121,7 +121,14 @@ VLCPlayer.propTypes = {
   seek:PropTypes.number,
   snapshotPath: PropTypes.string,
   paused: PropTypes.bool,
-
+  onVideoPaused: PropTypes.func,
+  onVideoStopped: PropTypes.func,
+  onVideoBuffering: PropTypes.func,
+  onVideoPlaying: PropTypes.func,
+  onVideoEnded: PropTypes.func,
+  onVideoError: PropTypes.func,
+  onVideoProgress: PropTypes.func,
+  
   /* Wrapper component */
   source: PropTypes.object,
 
