@@ -21,10 +21,10 @@
     "name": "xiongchuan",
     "email": "xiongchuan86@vip.qq.com"
   },
-  "homepage": "https://github.com/xiongchuan86/react-native-vlcplayer",
+  "homepage": "https://github.com/ruddell/react-native-vlcplayer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/csyo/react-native-vlcplayer.git"
+    "url": "https://github.com/ruddell/react-native-vlcplayer.git"
   },
   "devDependencies": {},
   "dependencies": {
